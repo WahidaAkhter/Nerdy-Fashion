@@ -1,46 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Nerdy Fashion</title>
-</head>
-<body>
-    <header>
-        <!-- navbar section -->
-        <nav class="flex justify-between px-20 pt-[3.44rem] pb-[3.12rem]">
-            <div><h1 class="font-bold text-[#0F0F0F] ">Nerdy</h1></div>
-            <div >
-                <ul class="flex gap-4">
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div><button class="font-semibold border rounded-3xl bg-[#D8FB78] px-7 py-3">Buy Now</button></div>
-        </nav>
-        <!-- banner section -->
-         <section class="flex">
-            <div>
-                <h1 class="text-[4rem] font-bold">
-                    Designed to <br> combine style and <br> functionality.
-                </h1>
-                <p>Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding <br> skills through a diverse range of challenges for all experience levels.</p>
-                <button class="font-semibold border rounded-3xl bg-[#D8FB78] px-7 py-3">Explore Deal</button>
-            </div>
-            <div>
-                <img src="/Rectangle 17854.png" alt="">
-            </div>
-         </section>
+  </head>
+  <body>
+    <header class="bg-[#F2F4F6]">
+      <!-- navbar section -->
+      <nav class="flex justify-between px-20 pt-[3.44rem] pb-[3.12rem]">
+        <div><h1 class="font-bold text-[#0F0F0F] text-[2rem]">Nerdy</h1></div>
+        <div>
+          <ul class="flex gap-4">
+            <li>Home</li>
+            <li>Projects</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="font-semibold border rounded-3xl bg-[#D8FB78] px-7 py-3"
+          >
+            Buy Now
+          </button>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <section
+        class="border border-hidden rounded-lg flex justify-between pt-[3.75rem] px-20 pb-[6.25rem] bg-[#FFF]"
+      >
+        <div>
+          <h1 class="text-[4rem] font-bold pb-3">
+            Designed to <br />
+            combine style and <br />
+            functionality.
+          </h1>
+          <p class="pb-[1.5rem] text-[1rem]">
+            Unlock your potential with Phitron's Online Judge, a dynamic
+            platform for honing your coding <br />
+            skills through a diverse range of challenges for all experience
+            levels.
+          </p>
+          <button
+            class="font-semibold border rounded-3xl bg-[#D8FB78] px-7 py-3"
+          >
+            Explore Deal
+          </button>
+        </div>
+        <div>
+          <img src="/Rectangle 17854.png" alt="" />
+        </div>
+      </section>
     </header>
     <main>
+      <!-- Best Selling Products -->
+      <section class="pb-[6.25rem] bg-gray-100">
+        <div class="text-center">
+          <h1 class="font-bold text-[2rem]">Best Selling Products</h1>
+          <p class="text-[#0F0F0F] opacity-[0.7]">
+            Unlock your potential with Phitron's Online Judge, a dynamic
+            platform for honing your coding skills through a <br />
+            diverse range of challenges for all experience levels.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-3 place-items-center pt-5 bg-gray-100">
+          <!-- card 1 -->
+          <div class="bg-[#FFF] border border-hidden rounded-lg">
+            <div class="px-[1.5rem] py-[1.5rem]">
+              <div class="pb-3">
+                <img
+                  class="bg-gray-100 rounded-lg"
+                  src="/images/woman-model-demonstrating-winter-cloths 1.png"
+                  alt=""
+                />
+              </div>
+              <h1 class="text-[1.125rem] text-[#0F0F0F] font-semibold">
+                Balenciaga Floral-Print Silk Shirt
+              </h1>
+              <p class="text-[1rem] text-[#0F0F0F] opacity-[0.7] pb-[1.5rem]">
+                $1644.00
+              </p>
+              <!-- buttons -->
+              <div class="pb-3">
+                <button
+                  class="font-semibold px-20 py-3 text-[#0F0F0F] rounded-full bg-[#D8FB78] border border-black"
+                >
+                  Buy Now
+                </button>
+              </div>
+              <div class="flex gap-2">
+                <button
+                  class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-10 py-3"
+                >
+                  Add to cart
+                </button>
+                <svg
+                  class="border border-red-200 rounded-full px-1 py-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="45"
+                  viewBox="0 0 24 25"
+                  fill="red"
+                >
+                  <g clip-path="url(#clip0_10_351)">
+                    <path
+                      d="M19.5001 13.072L12.0001 20.5L4.50006 13.072C4.00536 12.5906 3.6157 12.012 3.3556 11.3726C3.09551 10.7333 2.97062 10.047 2.98879 9.35693C3.00697 8.66692 3.16782 7.98814 3.46121 7.36334C3.75461 6.73854 4.17419 6.18126 4.69354 5.72658C5.21289 5.27191 5.82076 4.92969 6.47887 4.72148C7.13697 4.51327 7.83106 4.44359 8.51743 4.5168C9.20379 4.59002 9.86756 4.80456 10.4669 5.14691C11.0663 5.48926 11.5883 5.952 12.0001 6.506C12.4136 5.95602 12.9362 5.49732 13.5352 5.15861C14.1341 4.81989 14.7966 4.60845 15.481 4.53752C16.1654 4.46659 16.8571 4.5377 17.5128 4.74639C18.1685 4.95509 18.7741 5.29687 19.2916 5.75036C19.8091 6.20386 20.2275 6.75929 20.5205 7.38189C20.8135 8.0045 20.9748 8.68088 20.9944 9.36871C21.0139 10.0565 20.8913 10.741 20.6342 11.3793C20.3771 12.0175 19.991 12.5958 19.5001 13.078"
+                      stroke="#0F0F0F"
+                      stroke-opacity="0.8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_10_351">
+                      <rect
+                        width="24"
+                        height="24"
+                        fill="white"
+                        transform="translate(0 0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="bg-[#FFF] border border-hidden rounded-lg">
+            <div class="px-[1.5rem] py-[1.5rem]">
+              <div class="pb-3">
+                <img
+                  class="bg-gray-100 rounded-lg"
+                  src="/images/woman-model-demonstrating-winter-cloths 1.png"
+                  alt=""
+                />
+              </div>
+              <h1 class="text-[1.125rem] text-[#0F0F0F] font-semibold">
+                Balenciaga Floral-Print Silk Shirt
+              </h1>
+              <p class="text-[1rem] text-[#0F0F0F] opacity-[0.7] pb-[1.5rem]">
+                $1644.00
+              </p>
+              <!-- buttons -->
+              <div class="pb-3">
+                <button
+                  class="font-semibold px-20 py-3 text-[#0F0F0F] rounded-full bg-[#D8FB78] border border-black"
+                >
+                  Buy Now
+                </button>
+              </div>
+              <div class="flex gap-2">
+                <button
+                  class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-10 py-3"
+                >
+                  Add to cart
+                </button>
+                <svg
+                  class="border border-inherit-200 rounded-full px-1 py-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="45"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_10_351)">
+                    <path
+                      d="M19.5001 13.072L12.0001 20.5L4.50006 13.072C4.00536 12.5906 3.6157 12.012 3.3556 11.3726C3.09551 10.7333 2.97062 10.047 2.98879 9.35693C3.00697 8.66692 3.16782 7.98814 3.46121 7.36334C3.75461 6.73854 4.17419 6.18126 4.69354 5.72658C5.21289 5.27191 5.82076 4.92969 6.47887 4.72148C7.13697 4.51327 7.83106 4.44359 8.51743 4.5168C9.20379 4.59002 9.86756 4.80456 10.4669 5.14691C11.0663 5.48926 11.5883 5.952 12.0001 6.506C12.4136 5.95602 12.9362 5.49732 13.5352 5.15861C14.1341 4.81989 14.7966 4.60845 15.481 4.53752C16.1654 4.46659 16.8571 4.5377 17.5128 4.74639C18.1685 4.95509 18.7741 5.29687 19.2916 5.75036C19.8091 6.20386 20.2275 6.75929 20.5205 7.38189C20.8135 8.0045 20.9748 8.68088 20.9944 9.36871C21.0139 10.0565 20.8913 10.741 20.6342 11.3793C20.3771 12.0175 19.991 12.5958 19.5001 13.078"
+                      stroke="#0F0F0F"
+                      stroke-opacity="0.8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_10_351">
+                      <rect
+                        width="24"
+                        height="24"
+                        fill="white"
+                        transform="translate(0 0.5)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
 
+          <!-- card 3 -->
+           <div class="bg-[#FFF] border border-hidden rounded-lg"> <div class="px-[1.5rem] py-[1.5rem]">
+            <div class="pb-3">
+              <img
+                class="bg-gray-100 rounded-lg"
+                src="/images/woman-model-demonstrating-winter-cloths 1.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[1.125rem] text-[#0F0F0F] font-semibold">
+              Balenciaga Floral-Print Silk Shirt
+            </h1>
+            <p class="text-[1rem] text-[#0F0F0F] opacity-[0.7] pb-[1.5rem]">
+              $1644.00
+            </p>
+            <!-- buttons -->
+            <div class="pb-3">
+              <button
+                class="font-semibold px-20 py-3 text-[#0F0F0F] rounded-full bg-[#D8FB78] border border-black"
+              >
+                Buy Now
+              </button>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-10 py-3"
+              >
+                Add to cart
+              </button>
+              <svg
+                class="border border-inherit-200 rounded-full px-1 py-2"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="45"
+                viewBox="0 0 24 25"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_10_351)">
+                  <path
+                    d="M19.5001 13.072L12.0001 20.5L4.50006 13.072C4.00536 12.5906 3.6157 12.012 3.3556 11.3726C3.09551 10.7333 2.97062 10.047 2.98879 9.35693C3.00697 8.66692 3.16782 7.98814 3.46121 7.36334C3.75461 6.73854 4.17419 6.18126 4.69354 5.72658C5.21289 5.27191 5.82076 4.92969 6.47887 4.72148C7.13697 4.51327 7.83106 4.44359 8.51743 4.5168C9.20379 4.59002 9.86756 4.80456 10.4669 5.14691C11.0663 5.48926 11.5883 5.952 12.0001 6.506C12.4136 5.95602 12.9362 5.49732 13.5352 5.15861C14.1341 4.81989 14.7966 4.60845 15.481 4.53752C16.1654 4.46659 16.8571 4.5377 17.5128 4.74639C18.1685 4.95509 18.7741 5.29687 19.2916 5.75036C19.8091 6.20386 20.2275 6.75929 20.5205 7.38189C20.8135 8.0045 20.9748 8.68088 20.9944 9.36871C21.0139 10.0565 20.8913 10.741 20.6342 11.3793C20.3771 12.0175 19.991 12.5958 19.5001 13.078"
+                    stroke="#0F0F0F"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_10_351">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div></div>
+         
+          <!-- card 4 -->
+           <div class="bg-[#FFF] border border-hidden rounded-lg"><div class="px-[1.5rem] py-[1.5rem]">
+            <div class="pb-3">
+              <img
+                class="bg-gray-100 rounded-lg"
+                src="/images/woman-model-demonstrating-winter-cloths 1.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[1.125rem] text-[#0F0F0F] font-semibold">
+              Balenciaga Floral-Print Silk Shirt
+            </h1>
+            <p class="text-[1rem] text-[#0F0F0F] opacity-[0.7] pb-[1.5rem]">
+              $1644.00
+            </p>
+            <!-- buttons -->
+            <div class="pb-3">
+              <button
+                class="font-semibold px-20 py-3 text-[#0F0F0F] rounded-full bg-[#D8FB78] border border-black"
+              >
+                Buy Now
+              </button>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-10 py-3"
+              >
+                Add to cart
+              </button>
+              <svg
+                class="border border-inherit-200 rounded-full px-1 py-2"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="45"
+                viewBox="0 0 24 25"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_10_351)">
+                  <path
+                    d="M19.5001 13.072L12.0001 20.5L4.50006 13.072C4.00536 12.5906 3.6157 12.012 3.3556 11.3726C3.09551 10.7333 2.97062 10.047 2.98879 9.35693C3.00697 8.66692 3.16782 7.98814 3.46121 7.36334C3.75461 6.73854 4.17419 6.18126 4.69354 5.72658C5.21289 5.27191 5.82076 4.92969 6.47887 4.72148C7.13697 4.51327 7.83106 4.44359 8.51743 4.5168C9.20379 4.59002 9.86756 4.80456 10.4669 5.14691C11.0663 5.48926 11.5883 5.952 12.0001 6.506C12.4136 5.95602 12.9362 5.49732 13.5352 5.15861C14.1341 4.81989 14.7966 4.60845 15.481 4.53752C16.1654 4.46659 16.8571 4.5377 17.5128 4.74639C18.1685 4.95509 18.7741 5.29687 19.2916 5.75036C19.8091 6.20386 20.2275 6.75929 20.5205 7.38189C20.8135 8.0045 20.9748 8.68088 20.9944 9.36871C21.0139 10.0565 20.8913 10.741 20.6342 11.3793C20.3771 12.0175 19.991 12.5958 19.5001 13.078"
+                    stroke="#0F0F0F"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_10_351">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div></div>
+          
+          <!-- card 5 -->
+           <div class="bg-[#FFF] border border-hidden rounded-lg"> <div class="px-[1.5rem] py-[1.5rem]">
+            <div class="pb-3">
+              <img
+                class="bg-gray-100 rounded-lg"
+                src="/images/woman-model-demonstrating-winter-cloths 1.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[1.125rem] text-[#0F0F0F] font-semibold">
+              Balenciaga Floral-Print Silk Shirt
+            </h1>
+            <p class="text-[1rem] text-[#0F0F0F] opacity-[0.7] pb-[1.5rem]">
+              $1644.00
+            </p>
+            <!-- buttons -->
+            <div class="pb-3">
+              <button
+                class="font-semibold px-20 py-3 text-[#0F0F0F] rounded-full bg-[#D8FB78] border border-black"
+              >
+                Buy Now
+              </button>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-10 py-3"
+              >
+                Add to cart
+              </button>
+              <svg
+                class="border border-inherit-200 rounded-full px-1 py-2"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="45"
+                viewBox="0 0 24 25"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_10_351)">
+                  <path
+                    d="M19.5001 13.072L12.0001 20.5L4.50006 13.072C4.00536 12.5906 3.6157 12.012 3.3556 11.3726C3.09551 10.7333 2.97062 10.047 2.98879 9.35693C3.00697 8.66692 3.16782 7.98814 3.46121 7.36334C3.75461 6.73854 4.17419 6.18126 4.69354 5.72658C5.21289 5.27191 5.82076 4.92969 6.47887 4.72148C7.13697 4.51327 7.83106 4.44359 8.51743 4.5168C9.20379 4.59002 9.86756 4.80456 10.4669 5.14691C11.0663 5.48926 11.5883 5.952 12.0001 6.506C12.4136 5.95602 12.9362 5.49732 13.5352 5.15861C14.1341 4.81989 14.7966 4.60845 15.481 4.53752C16.1654 4.46659 16.8571 4.5377 17.5128 4.74639C18.1685 4.95509 18.7741 5.29687 19.2916 5.75036C19.8091 6.20386 20.2275 6.75929 20.5205 7.38189C20.8135 8.0045 20.9748 8.68088 20.9944 9.36871C21.0139 10.0565 20.8913 10.741 20.6342 11.3793C20.3771 12.0175 19.991 12.5958 19.5001 13.078"
+                    stroke="#0F0F0F"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_10_351">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div></div>
+         
+          <!-- card 6 -->
+         <div class="bg-[#FFF] border border-hidden rounded-lg">
+             <div class="px-[1.5rem] py-[1.5rem]">
+            <div class="pb-3">
+              <img
+                class="bg-gray-100 rounded-lg"
+                src="/images/woman-model-demonstrating-winter-cloths 1.png"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[1.125rem] text-[#0F0F0F] font-semibold">
+              Balenciaga Floral-Print Silk Shirt
+            </h1>
+            <p class="text-[1rem] text-[#0F0F0F] opacity-[0.7] pb-[1.5rem]">
+              $1644.00
+            </p>
+            <!-- buttons -->
+            <div class="pb-3">
+              <button
+                class="font-semibold px-20 py-3 text-[#0F0F0F] rounded-full bg-[#D8FB78] border border-black"
+              >
+                Buy Now
+              </button>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-10 py-3"
+              >
+                Add to cart
+              </button>
+              <svg
+                class="border border-inherit-200 rounded-full px-1 py-2"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="45"
+                viewBox="0 0 24 25"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_10_351)">
+                  <path
+                    d="M19.5001 13.072L12.0001 20.5L4.50006 13.072C4.00536 12.5906 3.6157 12.012 3.3556 11.3726C3.09551 10.7333 2.97062 10.047 2.98879 9.35693C3.00697 8.66692 3.16782 7.98814 3.46121 7.36334C3.75461 6.73854 4.17419 6.18126 4.69354 5.72658C5.21289 5.27191 5.82076 4.92969 6.47887 4.72148C7.13697 4.51327 7.83106 4.44359 8.51743 4.5168C9.20379 4.59002 9.86756 4.80456 10.4669 5.14691C11.0663 5.48926 11.5883 5.952 12.0001 6.506C12.4136 5.95602 12.9362 5.49732 13.5352 5.15861C14.1341 4.81989 14.7966 4.60845 15.481 4.53752C16.1654 4.46659 16.8571 4.5377 17.5128 4.74639C18.1685 4.95509 18.7741 5.29687 19.2916 5.75036C19.8091 6.20386 20.2275 6.75929 20.5205 7.38189C20.8135 8.0045 20.9748 8.68088 20.9944 9.36871C21.0139 10.0565 20.8913 10.741 20.6342 11.3793C20.3771 12.0175 19.991 12.5958 19.5001 13.078"
+                    stroke="#0F0F0F"
+                    stroke-opacity="0.8"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_10_351">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.5)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+         </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
