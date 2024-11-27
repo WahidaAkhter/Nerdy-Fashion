@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-family {
+        font-family: "IBM Plex Sans", sans-serif;
+      }
+    </style>
+
     <title>Nerdy Fashion</title>
   </head>
-  <body>
+  <body class="font-family">
     <header class="bg-[#F2F4F6]">
-
       <!-- navbar section -->
 
       <nav class="flex justify-between px-36 pt-[3.44rem] pb-[3.12rem]">
@@ -23,9 +37,7 @@
           </ul>
         </div>
         <div>
-          <button
-            class="font-bold border rounded-3xl bg-[#D8FB78] px-7 py-3"
-          >
+          <button class="font-bold border rounded-3xl bg-[#D8FB78] px-7 py-3">
             Buy Now
           </button>
         </div>
@@ -47,9 +59,7 @@
               skills through a diverse range of challenges for all experience
               levels.
             </p>
-            <button
-              class="font-bold border rounded-3xl bg-[#D8FB78] px-7 py-3"
-            >
+            <button class="font-bold border rounded-3xl bg-[#D8FB78] px-7 py-3">
               Explore Deal
             </button>
           </div>
@@ -60,7 +70,6 @@
       </div>
     </header>
     <main>
-
       <!-- Best Selling Products -->
 
       <section class="pb-[6.25rem] pt-[6.25rem] bg-gray-100">
@@ -72,8 +81,9 @@
             diverse range of challenges for all experience levels.
           </p>
         </div>
-        <div class="grid grid-cols-3 gap-4 place-items-center pt-5 bg-gray-100 mx-2">
-          
+        <div
+          class="grid grid-cols-3 gap-4 place-items-center pt-5 bg-gray-100 mx-2"
+        >
           <!-- card 1 -->
 
           <div class="bg-[#FFF] border border-hidden rounded-3xl">
@@ -103,7 +113,7 @@
               </div>
               <div class="flex gap-2">
                 <button
-                  class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-16 py-3 "
+                  class="font-semibold text-[#4C4C4C] rounded-full border border-slate-200 px-16 py-3"
                 >
                   Add to cart
                 </button>
@@ -650,11 +660,19 @@
 
         <!-- input section -->
 
-        <div class="px-[2rem] py-[0.98rem] ">
+        <div class="px-[2rem] py-[0.98rem]">
           <div class="text-center pt-[2rem]">
             <form action="/action_page.php">
-              <label class="border border-inherit rounded-full pl-7 pr-44 py-2 text-gray-400 font-semibold mx-1" for="email">Enter your email address</label>
-              <button class="bg-[#D8FB78] text-black font-semibold px-7 py-2 rounded-full">Subscribe</button>
+              <label
+                class="border border-inherit rounded-full pl-7 pr-44 py-2 text-gray-400 font-semibold mx-1"
+                for="email"
+                >Enter your email address</label
+              >
+              <button
+                class="bg-[#D8FB78] text-black font-semibold px-7 py-2 rounded-full"
+              >
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
